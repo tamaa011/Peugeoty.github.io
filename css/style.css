@@ -1,0 +1,145 @@
+body {
+    overflow-x: hidden;
+}
+*{
+	box-sizing: border-box;
+}
+/*/Start navbar/*/
+.navbar-default {
+    background-color: #3D3E58;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:hover{color:#fd5f00;}
+
+.navbar-default .navbar-nav > li > a{
+	color: #FFF;
+	font-size: 15px;
+/*	text-transform: uppercase;*/
+    font-family: 'B612', sans-serif;
+    margin-top: -10px;
+    padding: 15px;
+}
+.navbar-header img{
+	padding-top: 5px;
+    margin-top: -5px;
+}
+.navbar-right{
+	padding-top: 15px;
+}
+
+/*/End navbar/*/
+/*start pic*/
+.down-pic{
+    margin-top: -20px;
+    background-image: url(../img/peugeot_508_gt_9.jpg);  /*img*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    
+}
+.down-pic .text h1 {
+    margin: 0 0 15px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.4em;
+    color: red;
+}
+.down-pic .text {
+    padding: 70px;
+    text-align: center;
+}
+.down-pic .pic img {
+    padding-top: 20px;
+    height: 700px;
+    
+}
+.down-pic .text .bt {
+    width: 192.55px;
+    height: 56px; 
+    margin: 20px;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+.down-pic .text .bt .ic {
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -5px;
+    display: inline-block;
+}
+.down-pic .text .bt:hover {
+    background-color: forestgreen;
+    color: white;
+    transition: 0.3s;
+}
+/*end pic*/
+/*start about*/
+.about {
+    background-color: #7A8691;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 5px; 
+    color: #FBAE17;
+}
+.about p {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+}
+/*end about*/
+/*/start footer/*/
+footer{
+    background-color: #3D3E58;
+	padding: 15px;
+/*	margin-top: 70px;*/
+}
+
+.social-media-footer i{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: black;
+}
+.social-media-footer a{
+	font-size: 13px;
+	display: block;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	line-height: 44px;
+	text-align: center;
+	background: white;
+}
+
+.social-media-footer a:hover , .social-media-footer i:hover{
+	  background: #fd5f00;
+	  color: #222;
+	  transition: .3s ease-in-out;
+}
+
+.copyright {
+	color: white;
+	font-family: 'B612', sans-serif;
+	font-size: 15px;
+	padding: 5px;
+}
+.copyright span , .copyright a{
+	color: #fd5f00;
+	text-decoration: none;
+
+}
+
+/*/end footer/*/
